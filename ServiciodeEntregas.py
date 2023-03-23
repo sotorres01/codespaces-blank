@@ -376,8 +376,8 @@ class delivor(Person):
         else:
             self.__items = [Package()]
 
-    
+    # __str__
     def _str_(self):
         return f"el Id: {self.__idpersona}, la fecha es: {self.__date}, el tiempo de entrega es{self.__time}, la informacion del que envia es: {self.__sender} la informacion del que lo recibe es: , {self.__receiver}  " 
 
-     
+
